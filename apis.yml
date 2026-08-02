@@ -1,7 +1,28 @@
 aid: tujia
-name: tujia
-description: tujia is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tujia.png
+name: Tujia
+description: >-
+  Tujia (途家) is a Chinese online marketplace for short-term rentals, vacation
+  homes, and homestays, frequently described as "China's Airbnb." Founded in
+  2011 and headquartered in Beijing, the company connects travelers with
+  apartments, villas, and serviced homes across China and select international
+  destinations through its website, mobile apps, and WeChat mini-program. Tujia
+  runs a consumer-facing booking marketplace and property-management services
+  rather than a public developer platform. It was surfaced as a portfolio
+  company of Qiming Venture Partners and added to the API Evangelist network;
+  the enrichment pipeline probed the domain and found no public API, developer
+  portal, or open platform for the company.
 url: https://raw.githubusercontent.com/api-evangelist/tujia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Short-Term Rental
+- Vacation Rental
+- Homestay
+- Travel
+- Hospitality
+- Marketplace
+- Accommodation
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,10 @@ maintainers:
 common:
 - type: Website
   url: https://tujia.com
+- type: DomainSecurity
+  url: security/tujia-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
